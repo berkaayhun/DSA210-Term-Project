@@ -1,5 +1,5 @@
 # DSA210-Term-Project
-1. Project Overview
+##1. Project Overview
 
 This project aims to analyze how various factors such as education, experience, and personal skills influence individuals’ career satisfaction.
 Career satisfaction (measured on a 1–10 scale) represents how fulfilled and content people feel with their professional lives, considering aspects such as salary, work-life balance, and growth opportunities.
