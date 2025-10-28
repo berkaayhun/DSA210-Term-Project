@@ -30,7 +30,8 @@ Dataset:
 | Skills | `Soft_Skills_Score`, `Networking_Score` | Communication & interpersonal ability |
 | Career Outcomes | `Starting_Salary`, `Work_Life_Balance`, `Current_Satisfaction` | Job success & satisfaction indicators |
 
-**Target variable (Y):** `Current_Satisfaction` (1–10 scale)
+**Target variable (Y):** `Current_Satisfaction` (1–10 scale).
+
 Apart from these, there will also be data that I will produce with the data I have.(Feature engineering)
 
 
