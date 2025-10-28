@@ -19,7 +19,7 @@ Through this project, I aim to identify which of these have the strongest correl
 This topic also aligns closely with my upcoming transition from university to professional life, allowing me to interpret the data not only from a statistical perspective but also from a **real-world, personal perspective**.  
 Ultimately, the goal is to understand what truly drives success and happiness at work, beyond traditional metrics like salary or GPA.
 
-## 4. Data Collection:
+## 3. Data Collection:
 I obtained the dataset from Kaggle as a csv file. This dataset contains ~400 individuals with details about education, experience, and job outcomes.
 Dataset: 
 | Category | Example Columns | Description |
