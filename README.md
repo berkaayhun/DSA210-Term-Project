@@ -34,4 +34,18 @@ Dataset:
 
 Apart from these, there will also be data that I will produce with the data I have.(Feature engineering)
 
+## 4.Plan
+### Exploratory Data Analysis (EDA)
+
+- **Data Cleaning & Preprocessing:** Perform data cleaning and preprocessing on the Education and Career Success dataset by handling missing values, normalizing numeric features.
+
+- **Descriptive Statistics:** Perform descriptive statistics to summarize the Education and Career Success dataset by calculating measures such as mean, median, and standard deviation to understand the overall distribution and trends of key variables.
+  
+- **Visualization:** Histograms, bar charts, scatter plots, and correlation heatmaps.
+### Machine Learning Methods
+- **Regression Models:** Multiple Linear Regression, Random Forest Regressor to predict continuous satisfaction scores on a 1–10 scale.
+- **Classification Models:** Categorize individuals into “Low”, “Medium”, and “High” satisfaction levels for comparative analysis.
+  
+
+
 
