@@ -45,7 +45,16 @@ Apart from these, there will also be data that I will produce with the data I ha
 ### Machine Learning Methods
 - **Regression Models:** Multiple Linear Regression, Random Forest Regressor to predict continuous satisfaction scores on a 1–10 scale.
 - **Classification Models:** Categorize individuals into “Low”, “Medium”, and “High” satisfaction levels for comparative analysis.
-  
+## 5. Exploratory Data Analysis (EDA)
+### 1. Data Preprocessing
+
+Before performing statistical analysis and modeling, several preprocessing steps were applied to ensure data quality and consistency:
+
+Handling Missing Values:
+Continuous variables such as GPA, SAT scores, Work-Life Balance, and Starting Salary were checked for missing values. No missing values ​​and outliers were found.
+
+Normalization of Numeric Features:
+Columns with different scales — such as High_School_GPA, University_GPA, Internships_Completed, and Starting_Salary — were standardized using z-score normalization to prepare them for regression models.
 
 
 
