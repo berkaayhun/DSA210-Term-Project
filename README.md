@@ -58,7 +58,9 @@ Columns with different scales — such as High_School_GPA, University_GPA, Inter
 
 ### 2. Feature Engineering
 ## Overall Academic GPA
+
 Academic_Life = (`High_School_GPA` + `University_GPA`)/2
+
 Purpose : To create a single, composite score that represents a student's overall academic level, rather than individual GPA values.
 
 ##  Experience Score
