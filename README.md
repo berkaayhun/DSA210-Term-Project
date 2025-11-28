@@ -77,7 +77,7 @@ I reversed the scale so that a higher value means more stress.
 
 In this way, the relationship between stress level and career satisfaction can be examined more easily.
 
-## Descriptive Statistics & Visualizations
+## 3. Descriptive Statistics & Visualizations
 
 After preprocessing and feature engineering, descriptive statistics and visual analyses were performed to understand the structure of the dataset and explore potential relationships between variables, including the newly created features.
 
@@ -85,16 +85,16 @@ After preprocessing and feature engineering, descriptive statistics and visual a
 
 Basic summary statistics were calculated for both original and engineered features:
 
-Central tendency measures: mean, median, mode
+**Central tendency measures:** mean, median, mode
 (applied to GPA, experience-related values, Work-Life Balance, and Current Satisfaction)
 
-Spread measures: standard deviation, minimum, maximum
+**Spread measures:** standard deviation, minimum, maximum
 (used to detect variability in experience scores, soft skills, and stress levels)
 
-Frequency counts:
+**Frequency counts:**
 Used for categorical variables such as gender and field of study.
 
-### 3. Visualizations
+### Visualizations
 
 Several visual techniques were applied to gain deeper insight into individual variables and their relationships:
 
