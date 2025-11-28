@@ -57,23 +57,78 @@ Normalization of Numeric Features:
 Columns with different scales — such as High_School_GPA, University_GPA, Internships_Completed, and Starting_Salary — were standardized using z-score normalization to prepare them for regression models.
 
 ### 2. Feature Engineering
-## Overall Academic GPA
+#### Overall Academic GPA
 
 Academic_Life = (`High_School_GPA` + `University_GPA`)/2
 
 Purpose : To create a single, composite score that represents a student's overall academic level, rather than individual GPA values.
 
-##  Experience Score
+####  Experience Score
 
 Experience_Score = `Internships_Completed` + `Projects_Completed` + `Certifications`
 
 Purpose: To combine all components of practical experience into a single numerical score.
 This score better summarizes an individual's level of preparedness for the business world.
 
-## Stress Level
+#### Stress Level
 Stress_Level = 10- `Work_Life_Balance`
 
 I reversed the scale so that a higher value means more stress.
 
 In this way, the relationship between stress level and career satisfaction can be examined more easily.
 
+## Descriptive Statistics & Visualizations
+
+After preprocessing and feature engineering, descriptive statistics and visual analyses were performed to understand the structure of the dataset and explore potential relationships between variables, including the newly created features.
+
+### Descriptive Statistics
+
+Basic summary statistics were calculated for both original and engineered features:
+
+Central tendency measures: mean, median, mode
+(applied to GPA, experience-related values, Work-Life Balance, and Current Satisfaction)
+
+Spread measures: standard deviation, minimum, maximum
+(used to detect variability in experience scores, soft skills, and stress levels)
+
+Frequency counts:
+Used for categorical variables such as gender and field of study.
+
+### 3. Visualizations
+
+Several visual techniques were applied to gain deeper insight into individual variables and their relationships:
+
+#### 1. Distribution Plots
+
+Histograms for GPA, Academic_Life, Experience_Score, Stress_Level, and Current_Satisfaction
+-helped observe skewness, normality, and overall data spread.
+
+Boxplots
+-used to visually check for potential outliers and compare distributions across different fields of study or gender categories.
+
+#### 2. Relationship Visualizations
+
+- Scatter Plots
+
+  - Academic_Life vs Current_Satisfaction
+
+  - Experience_Score vs Current_Satisfaction
+
+  - Stress_Level vs Current_Satisfaction
+
+  - These plots allowed a clear observation of linear or non-linear relationships between engineered features and satisfaction.
+
+#### 3. Correlation Heatmap
+
+A correlation matrix was plotted to showcase linear relationships between numerical variables.
+This included both original features and the new engineered ones.
+
+The heatmap helped identify:
+
+- Whether Academic_Life correlates positively with satisfaction
+
+- Whether Stress_Level shows a negative relationship
+
+- Whether Experience_Score has a meaningful effect on salary or satisfaction
+
+This guided model selection and feature importance expectations for regression and classification tasks.
