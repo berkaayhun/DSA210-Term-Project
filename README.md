@@ -72,6 +72,8 @@ This score better summarizes an individual's level of preparedness for the busin
 
 ## Stress Level
 Stress_Level = 10- `Work_Life_Balance`
+
 I reversed the scale so that a higher value means more stress.
+
 In this way, the relationship between stress level and career satisfaction can be examined more easily.
 
