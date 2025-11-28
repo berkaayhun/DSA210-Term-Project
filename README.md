@@ -56,5 +56,20 @@ Continuous variables such as GPA, SAT scores, Work-Life Balance, and Starting Sa
 Normalization of Numeric Features:
 Columns with different scales — such as High_School_GPA, University_GPA, Internships_Completed, and Starting_Salary — were standardized using z-score normalization to prepare them for regression models.
 
+### 2. Feature Engineering
+## Overall Academic GPA
+Academic_Life = (`High_School_GPA` + `University_GPA`)/2
+Purpose : To create a single, composite score that represents a student's overall academic level, rather than individual GPA values.
 
+##  Experience Score
+
+Experience_Score = `Internships_Completed` + `Projects_Completed` + `Certifications`
+
+Purpose: To combine all components of practical experience into a single numerical score.
+This score better summarizes an individual's level of preparedness for the business world.
+
+## Stress Level
+Stress_Level = 10- `Work_Life_Balance`
+I reversed the scale so that a higher value means more stress.
+In this way, the relationship between stress level and career satisfaction can be examined more easily.
 
