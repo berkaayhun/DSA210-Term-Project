@@ -140,7 +140,7 @@ This guided model selection and feature importance expectations for regression a
 There is no significant relationship between Stress_Level and Current_Satisfaction. 
 
 **H₁ (Alternative Hypothesis):**
-There is a significant negative relationship between Stress_Level and Current_Satisfaction.
+There is a significant relationship between Stress_Level and Current_Satisfaction.
 
 ##### 2. Experience Score vs Starting Salary
 
@@ -148,5 +148,5 @@ There is a significant negative relationship between Stress_Level and Current_Sa
 There is no significant relationship between Experience_Score and Starting_Salary.
 
 **H₁ (Alternative Hypothesis):**
-There is a significant positive relationship between Experience_Score and Starting_Salary.
+There is a significant relationship between Experience_Score and Starting_Salary.
 
