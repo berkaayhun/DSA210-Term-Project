@@ -142,14 +142,7 @@ There is no significant relationship between Stress_Level and Current_Satisfacti
 **H₁ (Alternative Hypothesis):**
 There is a significant negative relationship between Stress_Level and Current_Satisfaction.
 
-##### 2. Academic_Life (GPA) Groups vs Career Satisfaction
-**H₀ (Null Hypothesis):**
-There is no difference in the average Current_Satisfaction across Academic_Life GPA groups (Low, Medium, High).
-
-**H₁ (Alternative Hypothesis):**
-There is a significant difference in the average Current_Satisfaction across Academic_Life GPA groups.
-
-##### 3. Experience Score vs Starting Salary
+##### 2. Experience Score vs Starting Salary
 
 **H₀ (Null Hypothesis):**
 There is no significant relationship between Experience_Score and Starting_Salary.
