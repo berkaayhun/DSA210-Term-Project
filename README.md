@@ -152,10 +152,10 @@ There is a significant relationship between Experience_Score and Starting_Salary
 
 ##### 3. School Stress vs Work Stress (by Industry)
 **H₀ (Null Hypothesis):**
-There is a significant relationship between School Stress and Work Stress.
+There is no significant relationship between School Stress and Work Stress.
 
 **H₁ (Alternative Hypothesis):**
-There is no significant relationship between School Stress and Work Stress.
+There is a significant relationship between School Stress and Work Stress.
 
 #### 5.Machine Learning and Model Evaluation
 
@@ -185,3 +185,23 @@ I evaluated each model using R² Score (to measure variance explained) and RMSE 
 KNN Regressor achieved the highest performance, indicating that career satisfaction is best predicted by looking at "neighbors" — individuals with similar academic and experience profiles.
 
 All models performed exceptionally well (R² > 0.96), suggesting the engineered features are highly predictive.
+
+## 6.Finding
+There is a significant strong correlation between Experience Score and Starting Salary.
+
+Stress Level has a positive correlation with Career Satisfaction, meaning higher stress was associated with higher satisfaction in this dataset.
+
+KNN Regressor gave the best fit for predicting Career Satisfaction, outperforming Random Forest, Decision Tree, and Linear Regression models.
+
+School Stress is independent from Work Stress, as no significant correlation was found between university majors and their corresponding industries.
+
+## 7. Limitations and Future Work
+**Dataset Size:** The primary dataset contains only 400 records, which limits the generalizability of the findings.
+
+**Data Nature:** The extremely high correlations suggest the dataset might be idealized. Real-world data typically contains more noise.
+
+**Future Work:**
+
+Expand the dataset to include real-world survey data from recent graduates.
+
+Incorporate qualitative factors like "Job Market Conditions" or "Company Culture".
