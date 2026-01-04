@@ -150,3 +150,37 @@ There is no significant relationship between Experience_Score and Starting_Salar
 **H₁ (Alternative Hypothesis):**
 There is a significant relationship between Experience_Score and Starting_Salary.
 
+###### 3. School Stress vs Work Stress (by Industry)
+**H₀ (Null Hypothesis):**
+There is a significant relationship between School Stress and Work Stress.
+
+**H₁ (Alternative Hypothesis):**
+There is no significant relationship between School Stress and Work Stress.
+
+#### 5.Machine Learning and Model Evaluation
+
+I implemented four regression models to predict Career Satisfaction based on the engineered features: Academic_Life, Experience_Score, and Stress_Level.
+
+**Linear Regression:** Served as a baseline model to test for linear relationships.
+
+**Decision Tree Regressor:** Used to capture non-linear patterns.
+
+**Random Forest Regressor:** An ensemble method to reduce overfitting and improve accuracy.
+
+**K-Nearest Neighbors (KNN):** A distance-based algorithm to predict satisfaction based on similar student profiles.
+
+Model Performance Comparison:
+
+I evaluated each model using R² Score (to measure variance explained) and RMSE (Root Mean Square Error).
+
+Model,R² Score,RMSE
+KNN Regressor,0.989,0.145
+Random Forest,0.988,0.150
+Decision Tree,0.986,0.166
+Linear Regression,0.968,0.250
+
+**Evaluation:**
+
+KNN Regressor achieved the highest performance, indicating that career satisfaction is best predicted by looking at "neighbors" — individuals with similar academic and experience profiles.
+
+All models performed exceptionally well (R² > 0.96), suggesting the engineered features are highly predictive.
