@@ -150,7 +150,7 @@ There is no significant relationship between Experience_Score and Starting_Salar
 **H₁ (Alternative Hypothesis):**
 There is a significant relationship between Experience_Score and Starting_Salary.
 
-###### 3. School Stress vs Work Stress (by Industry)
+##### 3. School Stress vs Work Stress (by Industry)
 **H₀ (Null Hypothesis):**
 There is a significant relationship between School Stress and Work Stress.
 
@@ -173,11 +173,12 @@ Model Performance Comparison:
 
 I evaluated each model using R² Score (to measure variance explained) and RMSE (Root Mean Square Error).
 
-Model,R² Score,RMSE
-KNN Regressor,0.989,0.145
-Random Forest,0.988,0.150
-Decision Tree,0.986,0.166
-Linear Regression,0.968,0.250
+| Model | R² Score | RMSE |
+| :--- | :--- | :--- |
+| KNN Regressor | 0.989 | 0.145 |
+| Random Forest | 0.988 | 0.150 |
+| Decision Tree | 0.986 | 0.166 |
+| Linear Regression | 0.968 | 0.250 |
 
 **Evaluation:**
 
